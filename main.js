@@ -15,14 +15,15 @@ bookList.add(book3);
 bookList.add(book4);
 bookList.add(book5);
 
-console.log(bookList.allTheBooks);
-console.log(bookList.currentBook);
-console.log(bookList.nextBook);
+// console.log(bookList.allTheBooks);
+
+
+// console.log(bookList.nextBook);
 bookList.finishCurrentBook();
-console.log(bookList.currentBook);
-bookList.finishCurrentBook();
-// console.log(bookList.getNotReadYet());
-// console.log(bookList.getRead());
+// console.log(bookList.currentBook);
+// bookList.finishCurrentBook();
+// console.log(bookList.countRead());
+// console.log(bookList.countNotReadYet());
 
 // console.log(bookList.lastBook);
 // console.log(bookList.allTheBooks);
