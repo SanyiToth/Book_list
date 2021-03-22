@@ -1,13 +1,15 @@
-import {BookList} from "./booklist.js";
-import {Book} from "./book.js";
+import {BookList} from "./booklist";
+import {Book} from "./book";
 
-let bookList = new BookList();
 
 let book1 = new Book("Az öreg halász", "dráma", "Ernest Hemingway");
 let book2 = new Book("A boldog hülye és az okos depressziós", "dráma", "Kepes András");
 let book3 = new Book("Zöldlámpa", "életrajz", "Matthew McConaughey");
 let book4 = new Book("Örökült sors", "pszichológia", "Orvos-Tóth Noémi");
 let book5 = new Book("Élet a bolygónkon", "tudomány", "David Attenborough");
+
+let bookList = new BookList(book1, book2, book3);
+
 
 bookList.add(book1);
 bookList.add(book2);
@@ -27,15 +29,3 @@ bookList.finishCurrentBook();
 
 // console.log(bookList.lastBook);
 // console.log(bookList.allTheBooks);
-
-
-
-
-
-
-
-
-
-
-
-
